@@ -7,6 +7,17 @@ Text textbaslikstyle(var baslik) {
     style: GoogleFonts.rancho(
       fontSize: 20,
       color: Colors.white,
+      fontWeight: FontWeight.bold,
+    ),
+  );
+}
+
+Text textmetinstyle(var baslik) {
+  return Text(
+    '$baslik',
+    style: GoogleFonts.rancho(
+      fontSize: 18,
+      color: Colors.white,
     ),
   );
 }
